@@ -1,7 +1,6 @@
 import React from 'react';
-import './App.css';
 import Navbar from './Components/Navbar';
-import Landing from './Components/Landing';
+import Hero from './Components/Hero';
 import Skills from './Components/Skills';
 import Projects from './Components/Projects';
 import About from './Components/About';
@@ -11,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Landing />
+      <Hero />
       <Skills />
       <Projects />
       <About />

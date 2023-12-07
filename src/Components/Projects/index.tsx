@@ -2,9 +2,9 @@ import './Projects.css'
 
 function Projects (){
     return (
-        <div className="landing">
-            Projects Section...
-        </div>
+        <section id='projects'>
+            Projects
+        </section>
     );
 }
 

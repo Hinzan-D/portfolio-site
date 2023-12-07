@@ -1,10 +1,10 @@
 import './About.css'
 
-function About (){
+function About(){
     return (
-        <div>
-            About portion...
-        </div>
+        <section id='about'>
+            About
+        </section>
     );
 }
 

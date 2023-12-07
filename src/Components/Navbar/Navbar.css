@@ -1,17 +1,35 @@
-
-nav{
-    display: inline;
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0px auto;
+    padding: 0 15px;
+    align-items: center;
+    height: 100%;
 }
-ul{
+
+.logo{
+}
+
+.nav-menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     list-style: none;
 }
 
-li{
-    display: inline;
-    float: right;
+.nav-menu ul li:not(:last-child){
+    margin-right: 40px;
 }
 
-a{
-    color: black;
+.nav-menu ul a{
+    font-size: 16px;
+    font-weight: 400px;
+    color: #2f234f;
     text-decoration: none;
+}
+
+.nav-menu ul a{
+
 }

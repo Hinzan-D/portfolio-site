@@ -2,10 +2,10 @@ import './Contact.css'
 
 function Contact (){
     return (
-        <div>
-            Contact Section...
-        </div>
+        <section id='contact'>
+            Contact
+        </section>
     );
 }
 
-export default Landing;
+export default Contact;

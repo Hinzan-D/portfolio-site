@@ -2,9 +2,9 @@ import './Skills.css'
 
 function Skills (){
     return (
-        <div>
-            Skills Section...
-        </div>
+        <section id='skills'>
+            Skills
+        </section>
     );
 }
 
